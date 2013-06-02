@@ -1,20 +1,18 @@
-snipp it
-========
+### snipp it
 
-USAGE
------
+#### USAGE
 
-Getter Setter:
+*Getter Setter*
 gs {tab} [varname] {tab} [vartype] {tab} [vartype in setter]
-or
+**or**
 Select a Word {strg+shift+p} gs
 
-Getter Setter ObjectStorage:
+*Getter Setter ObjectStorage*
 gss {tab} [varname plural] {tab} [varname singular] {tab} [vartype]
-or
+**or**
 Select a Word {strg+shift+p} gss
 
-This:
+*This*
 $t {tab} [varname]
-or
+**or**
 Select a Word {strg+shift+p} $t
