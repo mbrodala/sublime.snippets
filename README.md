@@ -1,6 +1,8 @@
 snipp it
+========
 
 USAGE
+-----
 
 Getter Setter:
 gs {tab} [varname] {tab} [vartype] {tab} [vartype in setter]
