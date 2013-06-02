@@ -3,14 +3,14 @@
 **Getter Setter**  
 gs {tab} [varname] {tab} [vartype] {tab} [vartype in setter]  
 *or*  
-Select a Word {strg+shift+p} gs
+select a word {strg+shift+p} gs
 
 **Getter Setter ObjectStorage**  
 gss {tab} [varname plural] {tab} [varname singular] {tab} [vartype]  
 *or*  
-Select a Word {strg+shift+p} gss
+select a word {strg+shift+p} gss
 
 **This**  
 $t {tab} [varname]  
 *or*  
-Select a Word {strg+shift+p} $t
+select a word {strg+shift+p} $t
