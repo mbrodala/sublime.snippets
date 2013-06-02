@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[\$this->]]></content>
+    <content><![CDATA[\$this->${1:$SELECTION}]]></content>
     <tabTrigger>$t</tabTrigger>
     <scope>source.php</scope>
     <description><![CDATA[this->]]></description>
