@@ -1,8 +1,10 @@
 <snippet>
-    <content><![CDATA[/**
+    <content><![CDATA[//--- ${1/(?:^|_)(\w)/\U$1$2/g$1} ---//
+
+/**
  * @var $2
  */
- protected \$${1:$SELECTION}
+protected \$${1:$SELECTION}
 
 /**
  * Getter for ${1:$SELECTION}
