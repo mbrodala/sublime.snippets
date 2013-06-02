@@ -7,7 +7,7 @@
  * @var \\TYPO3\\CMS\\Extbase\\Persistence\\ObjectStorage<$3>
  * @lazy
  */
-protected \$${1/_(\w)/\U$1/g$1}
+protected \$${1/_(\w)/\U$1/g$1};
 
 /**
  * Getter for ${1/_(\w)/\U$1/g$1}

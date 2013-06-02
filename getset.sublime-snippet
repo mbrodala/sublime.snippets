@@ -6,7 +6,7 @@
 /**
  * @var $2
  */
-protected \$${1/_(\w)/\U$1/g$1}
+protected \$${1/_(\w)/\U$1/g$1};
 
 /**
  * Getter for ${1/_(\w)/\U$1/g$1}
