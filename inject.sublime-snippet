@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[/**
+ * @var ${1:$SELECTION}
+ */
+protected \$${1/\\.*\\+(\w)(?!$)/\L$1/g};
+
+/**
+ * @param $1 \$${1/\\.*\\+(\w)(?!$)/\L$1/g}
+ */
+public function inject${1/\\.*\\(?!$)//g}($1 \$${1/\\.*\\+(\w)(?!$)/\L$1/g}) {
+	\$this->${1/\\.*\\+(\w)(?!$)/\L$1/g} = \$${1/\\.*\\+(\w)(?!$)/\L$1/g};
+}
+
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ij</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Create an injection</description>
+</snippet>
