@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[/**
- * @var $2 ${1:$SELECTION}
+ * @var $2 \$${1:$SELECTION}
  */
 protected \$${1/\\.*\\+(\w)(?!$)/\L$1/g};
 
