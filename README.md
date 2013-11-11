@@ -21,13 +21,17 @@ $t {tab} [varname]
 select a word {strg+shift+p} $t
 
 **Extbase Debugger**
+
 exdebug / exdebug4
 
 **Extbase Domain Model (TYPO3 4.x)**
+
 dm4 {tab} [extension name] {tab} [model name]
 
 **Extbase Domain Repository (TYPO3 4.x)**
+
 dr4 {tab} [extension name] {tab} [repository name]
 
 **Fluid ViewHelper (TYPO3 4.x)**
+
 vh4 {tab} [extension name] {tab} [viewhelper name]
