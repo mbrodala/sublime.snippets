@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Tx_Extbase_Utility_Debugger::var_dump(${0:value});
+]]></content>
+	<tabTrigger>exdebug4</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
