@@ -11,7 +11,7 @@ protected \$$1;
  * @return \\TYPO3\\CMS\\Extbase\\Persistence\\ObjectStorage
  */
 public function get${1/(?:^|_)(\w)/\U$1$2/g$1}() {
-    return \$this->${1/_(\w)/\U$1/g$1};
+  return \$this->${1/_(\w)/\U$1/g$1};
 }
 
 /**
@@ -19,7 +19,7 @@ public function get${1/(?:^|_)(\w)/\U$1$2/g$1}() {
  * @return void
  */
 public function set${1/(?:^|_)(\w)/\U$1$2/g$1}(\\TYPO3\\CMS\\Extbase\\Persistence\\ObjectStorage \$${1/_(\w)/\U$1/g$1}) {
-    \$this->${1/_(\w)/\U$1/g$1} = \$${1/_(\w)/\U$1/g$1};
+  \$this->${1/_(\w)/\U$1/g$1} = \$${1/_(\w)/\U$1/g$1};
 }
 
 /**
@@ -27,7 +27,7 @@ public function set${1/(?:^|_)(\w)/\U$1$2/g$1}(\\TYPO3\\CMS\\Extbase\\Persistenc
  * @return void
  */
 public function add${2/(?:^|_)(\w)/\U$1$2/g$1}($3 \$$2) {
-	\$this->${1/_(\w)/\U$1/g$1}->attach(\$${2/_(\w)/\U$1/g$1});
+  \$this->${1/_(\w)/\U$1/g$1}->attach(\$${2/_(\w)/\U$1/g$1});
 }
 
 /**
@@ -35,7 +35,7 @@ public function add${2/(?:^|_)(\w)/\U$1$2/g$1}($3 \$$2) {
  * @return void
  */
 public function remove${2/(?:^|_)(\w)/\U$1$2/g$1}($3 \$${2/_(\w)/\U$1/g$1}) {
-	\$this->${1/_(\w)/\U$1/g$1}->detach(\$${2/_(\w)/\U$1/g$1});
+  \$this->${1/_(\w)/\U$1/g$1}->detach(\$${2/_(\w)/\U$1/g$1});
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
