@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+use TYPO3\CMS\Core\Tests\UnitTestCase;
+
+/**
+ * Testcase for ${1}${2}
+ */
+class $1Test extends UnitTestCase {
+
+  /**
+   * @var ${1}
+   */
+  protected \$${1/(.+)/\l\1/};
+
+  /**
+   * Set up this testcase
+   */
+  public function setUp() {
+
+    \$this->${1/(.+)/\l\1/} = new ${1}();
+  }
+
+  ${0}
+}
+]]></content>
+  <description>Bootstrap TYPO3 unit test</description>
+  <tabTrigger>t3ut</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
