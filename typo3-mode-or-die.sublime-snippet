@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+defined('TYPO3_MODE') or die();
+
+]]></content>
+  <tabTrigger>t3die</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
