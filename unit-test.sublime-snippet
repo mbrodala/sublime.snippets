@@ -24,6 +24,6 @@ class ${TM_FILENAME/\.php$//} extends UnitTestCase {
 }
 ]]></content>
   <description>Bootstrap TYPO3 unit test</description>
-  <tabTrigger>t3ut</tabTrigger>
+  <tabTrigger>testcase</tabTrigger>
   <scope>source.php</scope>
 </snippet>
