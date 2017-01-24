@@ -3,21 +3,21 @@
 use TYPO3\CMS\Core\Tests\UnitTestCase;
 
 /**
- * Testcase for ${1}${2}
+ * Testcase for ${TM_FILENAME/Test\.php$//}${2}
  */
-class $1Test extends UnitTestCase {
+class ${TM_FILENAME/\.php$//} extends UnitTestCase {
 
   /**
-   * @var ${1}
+   * @var ${TM_FILENAME/Test\.php$//}
    */
-  protected \$${1/(.+)/\l\1/};
+  protected \$${TM_FILENAME/(.+)Test\.php$/\l\1/};
 
   /**
    * Set up this testcase
    */
   public function setUp() {
 
-    \$this->${1/(.+)/\l\1/} = new ${1}();
+    \$this->${TM_FILENAME/(.+)Test\.php$/\l\1/} = new ${TM_FILENAME/Test\.php$//}();
   }
 
   ${0}
