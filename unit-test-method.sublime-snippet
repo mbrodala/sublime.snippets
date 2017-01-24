@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * @test
+ */
+public function ${1:itDoesWhatIsExpected}() {
+
+  ${0}
+}
+]]></content>
+  <description>Add unit test method</description>
+  <tabTrigger>test</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
