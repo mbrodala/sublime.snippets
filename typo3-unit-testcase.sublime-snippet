@@ -23,7 +23,7 @@ class ${TM_FILENAME/\.php$//} extends UnitTestCase {
   ${0}
 }
 ]]></content>
-  <description>Bootstrap TYPO3 unit test</description>
-  <tabTrigger>testcase</tabTrigger>
+  <description>Bootstrap TYPO3 unit testcase</description>
+  <tabTrigger>t3testcase</tabTrigger>
   <scope>source.php</scope>
 </snippet>
