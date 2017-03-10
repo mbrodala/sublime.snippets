@@ -3,9 +3,9 @@
 /**
  * @test
  */
-public function ${1:itDoesWhatIsExpected}() {
-
-  ${0}
+public function ${1:itDoesWhatIsExpected}()
+{
+    ${0}
 }
 ]]></content>
   <description>Add unit test method</description>

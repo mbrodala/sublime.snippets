@@ -5,22 +5,22 @@ use PHPUnit\Framework\TestCase;
 /**
  * Testcase for ${TM_FILENAME/Test\.php$//}${2}
  */
-class ${TM_FILENAME/\.php$//} extends TestCase {
+class ${TM_FILENAME/\.php$//} extends TestCase
+{
+    /**
+     * @var ${TM_FILENAME/Test\.php$//}
+     */
+    protected \$${TM_FILENAME/(.+)Test\.php$/\l\1/};
 
-  /**
-   * @var ${TM_FILENAME/Test\.php$//}
-   */
-  protected \$${TM_FILENAME/(.+)Test\.php$/\l\1/};
+    /**
+     * Set up this testcase
+     */
+    public function setUp()
+    {
+        \$this->${TM_FILENAME/(.+)Test\.php$/\l\1/} = new ${TM_FILENAME/Test\.php$//}();
+    }
 
-  /**
-   * Set up this testcase
-   */
-  public function setUp() {
-
-    \$this->${TM_FILENAME/(.+)Test\.php$/\l\1/} = new ${TM_FILENAME/Test\.php$//}();
-  }
-
-  ${0}
+    ${0}
 }
 ]]></content>
   <description>Bootstrap unit testcase</description>
