@@ -15,7 +15,7 @@ class ${TM_FILENAME/\.php$//} extends UnitTestCase
     /**
      * Set up this testcase
      */
-    public function setUp()
+    protected function setUp()
     {
         \$this->${TM_FILENAME/(.+)Test\.php$/\l\1/} = new ${TM_FILENAME/Test\.php$//}();
     }
