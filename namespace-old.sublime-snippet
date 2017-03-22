@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+namespace PAGEmachine\\${1:${TM_FILEPATH/.+\/([a-z])|(_([a-z]))?\/(?:Classes|Tests)\/.*/(?1:\u\1:)(?2: \u\3:)/g}}\\${TM_FILEPATH/(?:.*(?:Classes|Tests)\/)|(\/)?([^\/]+)(?=\/)|(?:\/[^\/]+\.php$)/(?1:\\$^N:$^N)/g};
+
+$0]]></content>
+  <tabTrigger>Ns</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
