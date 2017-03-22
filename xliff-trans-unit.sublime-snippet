@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<trans-unit id="$1">
+  <source>$2</source>
+  ${3:<target>$4</target>}
+</trans-unit>
+]]></content>
+  <tabTrigger>tu</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Add a new XLIFF translation unit</description>
+</snippet>
