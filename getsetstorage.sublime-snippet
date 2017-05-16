@@ -10,7 +10,7 @@ protected \$$1;
 /**
  * @return \\TYPO3\\CMS\\Extbase\\Persistence\\ObjectStorage
  */
-public function get${1/(?:^|_)(\w)/\U$1$2/g$1}()
+public function get${1/(?:^|_)(\w)/\U$1$2/g$1}()${4:: \\TYPO3\\CMS\\Extbase\\Persistence\\ObjectStorage}
 {
     return \$this->${1/_(\w)/\U$1/g$1};
 }
