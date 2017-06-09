@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump(${1:value}, ${2:__METHOD__}, ${3:8}, ${4:defined('TYPO3_cliMode')});
+\TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump(${1:value}, ${2:__METHOD__}, ${3:8}, ${4:defined('TYPO3_cliMode') || defined('TYPO3_REQUESTTYPE') && (TYPO3_REQUESTTYPE & TYPO3_REQUESTTYPE_CLI)});
 ]]></content>
 	<tabTrigger>exdebug</tabTrigger>
 	<scope>source.php</scope>
