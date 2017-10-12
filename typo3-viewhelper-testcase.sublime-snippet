@@ -1,0 +1,41 @@
+<snippet>
+  <content><![CDATA[
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Fluid\Tests\Unit\ViewHelpers\ViewHelperBaseTestcase;
+
+/**
+ * Testcase for ${TM_FILENAME/Test\.php$//}${2}
+ */
+class ${TM_FILENAME/\.php$//} extends ViewHelperBaseTestcase
+{
+    /**
+     * @var ${TM_FILENAME/Test\.php$//}
+     */
+    protected \$${TM_FILENAME/(.+)Test\.php$/\l\1/};
+
+    /**
+     * Set up this testcase
+     */
+    protected function setUp()
+    {
+        parent::setUp();
+
+        \$this->${TM_FILENAME/(.+)Test\.php$/\l\1/} = new ${TM_FILENAME/Test\.php$//}();
+        \$this->injectDependenciesIntoViewHelper(\$this->${TM_FILENAME/(.+)Test\.php$/\l\1/});
+    }
+
+    /**
+     * Tear down this testcase
+     */
+    protected function tearDown()
+    {
+        GeneralUtility::purgeInstances();
+    }
+
+    ${0}
+}
+]]></content>
+  <description>Bootstrap TYPO3 viewhelper testcase</description>
+  <tabTrigger>t3vht</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
