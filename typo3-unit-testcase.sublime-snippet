@@ -33,6 +33,6 @@ class ${TM_FILENAME/\.php$//} extends UnitTestCase
 }
 ]]></content>
   <description>Bootstrap TYPO3 unit testcase</description>
-  <tabTrigger>t3testcase</tabTrigger>
+  <tabTrigger>t3ut</tabTrigger>
   <scope>source.php</scope>
 </snippet>
