@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * @test
+ */
+public function ${1:itDoesWhatIsExpected}()
+{
+    \$this->setArgumentsUnderTest(\$this->${TM_FILENAME/(.+)Test\.php$/\l\1/}, []);
+
+    \$result = \$this->${TM_FILENAME/(.+)Test\.php$/\l\1/}->render();
+    ${0}
+}
+]]></content>
+  <description>Add Typo3 viewhelper test method</description>
+  <tabTrigger>vhtest</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
