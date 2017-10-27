@@ -8,7 +8,7 @@ public function ${1:itDoesWhatIsExpected}()
     ${0}
 }
 ]]></content>
-  <description>Add unit test method</description>
+  <description>Add test method</description>
   <tabTrigger>test</tabTrigger>
   <scope>source.php</scope>
 </snippet>
