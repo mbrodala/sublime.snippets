@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * @return array
+ */
+public function ${1:provider}()${2:: array}
+{
+    return [
+        ${0}
+    ];
+}
+]]></content>
+  <description>Add test data provider method</description>
+  <tabTrigger>testdata</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
