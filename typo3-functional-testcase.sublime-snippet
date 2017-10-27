@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+use TYPO3\CMS\Core\Tests\FunctionalTestCase;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+
+/**
+ * Testcase for ${TM_FILENAME/Test\.php$//}${2}
+ */
+class ${TM_FILENAME/\.php$//} extends FunctionalTestCase
+{
+    ${0}
+}
+]]></content>
+  <description>Bootstrap TYPO3 functional testcase</description>
+  <tabTrigger>t3ft</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
