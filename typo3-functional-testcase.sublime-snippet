@@ -1,7 +1,6 @@
 <snippet>
   <content><![CDATA[
 use TYPO3\CMS\Core\Tests\FunctionalTestCase;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Testcase for ${TM_FILENAME/Test\.php$//}${2}
