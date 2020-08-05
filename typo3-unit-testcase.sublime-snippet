@@ -6,7 +6,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 /**
  * Testcase for ${TM_FILENAME/Test\.php$//}${2}
  */
-class ${TM_FILENAME/\.php$//} extends UnitTestCase
+final class ${TM_FILENAME/\.php$//} extends UnitTestCase
 {
     /**
      * @var ${TM_FILENAME/Test\.php$//}

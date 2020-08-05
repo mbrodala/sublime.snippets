@@ -5,7 +5,7 @@ use Nimut\TestingFramework\TestCase\FunctionalTestCase;
 /**
  * Testcase for ${TM_FILENAME/Test\.php$//}${2}
  */
-class ${TM_FILENAME/\.php$//} extends FunctionalTestCase
+final class ${TM_FILENAME/\.php$//} extends FunctionalTestCase
 {
     ${0}
 }

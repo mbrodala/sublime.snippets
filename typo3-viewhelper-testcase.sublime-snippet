@@ -6,7 +6,7 @@ use TYPO3\CMS\Fluid\Tests\Unit\ViewHelpers\ViewHelperBaseTestcase;
 /**
  * Testcase for ${TM_FILENAME/Test\.php$//}${2}
  */
-class ${TM_FILENAME/\.php$//} extends ViewHelperBaseTestcase
+final class ${TM_FILENAME/\.php$//} extends ViewHelperBaseTestcase
 {
     /**
      * @var ${TM_FILENAME/Test\.php$//}
