@@ -3,7 +3,7 @@
 /**
  * @test
  */
-public function ${1:itDoesWhatIsExpected}()
+public function ${1:itDoesWhatIsExpected}(): void
 {
     ${0}
 }
