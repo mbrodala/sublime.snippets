@@ -1,6 +1,5 @@
 <snippet>
   <content><![CDATA[
-/** @var ${1} */
 \$${2:${1/(\w)/\L$1/}} = \$this->prophesize(${1}::class);
 ]]></content>
   <tabTrigger>opro</tabTrigger>
